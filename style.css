@@ -10,23 +10,36 @@ p{
 
 .center {
 	text-align: center;
+	background-color: blue;
+}
+
+h1{
+	background-color: orange;
 }
 
 div {
 	background-color: yellow;
-	margin: 0, auto;
 	padding-top: 100px;
 	font-size: 2em;
-	width: 96%;
+	
 }
+
 
 @media (min-width: 768px){
 	div {
 		background-color: pink;
-		margin: 1%;
 		padding-top: 100px;
 		font-size: 3em;
-		width: 48%;
-			float:left;
+		
 	}
+
+@media (min-width: 1180px){
+	.container{
+	margin: 0 auto;
+	width: 1160px;
+	}
+}
+
+
+
 }
