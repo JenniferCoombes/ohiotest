@@ -1,0 +1,32 @@
+body {
+	background-color: green;
+
+
+}
+
+p{
+	font-size: 16px;
+}
+
+.center {
+	text-align: center;
+}
+
+div {
+	background-color: yellow;
+	margin: 0, auto;
+	padding-top: 100px;
+	font-size: 2em;
+	width: 96%;
+}
+
+@media (min-width: 768px){
+	div {
+		background-color: pink;
+		margin: 1%;
+		padding-top: 100px;
+		font-size: 3em;
+		width: 48%;
+			float:left;
+	}
+}
